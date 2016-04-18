@@ -1,0 +1,7 @@
+version: 0.0
+os: linux
+files:
+  - source: php-etc
+    destination: /var/app/config/php-etc
+  - source: proxy
+    destination: /var/app/config/proxy
